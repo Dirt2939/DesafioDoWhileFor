@@ -22,8 +22,7 @@ public class Desafio6Exer3 {
             num = ler.nextInt();
 
             num2 = num2 + num;
-            System.out.println(num2);
-
+            
             if (num == 0) {
                 numC--;
             }

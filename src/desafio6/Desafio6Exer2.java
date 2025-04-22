@@ -19,14 +19,13 @@ public class Desafio6Exer2 {
         while (num <= 20) {
 
             if (num % 2 == 0) {
-                num++;
-                numPar++;
-            } else {
-                num++;
+                numPar += num;
             }
+            num++;
         }
+            
 
-        System.out.println("Tem " + numPar + " números pares entre 1 a 20");
+        System.out.println("A soma dos números pares entre 1 a 20 é: "+numPar);
 
     }
 }
